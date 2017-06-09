@@ -1,0 +1,169 @@
+extends master
+
+block content
+    div.wholeWrapper
+        div#header.header
+            .container-fluid.header.header-shadow
+                .row.header-shadow
+                    img(src="../images/heart.png").headerImage
+                    .eight.columns.offset-by-four
+                        nav
+                            ul
+                                li
+                                    a(href="#", id="weddingLink") Svadba
+                                li
+                                    a(href="#", id="dressCodeLink") Dress Code
+                                li
+                                    a(href="#", id="giftsLink") Dary
+
+        section#paralax1Section
+            .container-fluid
+                .row
+                    .twelve.columns
+                        div#parallax1.parallaxParent
+                            div.backdround1
+                                div.names.row
+                                    .ten.columns.offset-by-one
+                                        p &nbsp;&nbsp;&nbsp;Nina Babická
+                                        p Pali Škvarenina
+
+        section#weddingSection
+            div#wedding.wedding.container-fluid
+                .row
+                    .twelve.columns.centered-text
+                        h1 Rock'n'Rollová Svadba Roka
+                .row
+                    .five.columns.centered-text.offset-by-one
+                        h2 Kedy?
+                        p.merveleFont 30. Jún 2017 15:00
+                    .five.columns.centered-text
+                        h2 Kde?
+                        p.merveleFont
+                            a(href="http://www.palenicajelsovce.sk/", target="_blank") Reštaurácia Pálenica Jelšovce
+                            br
+                            a(href="https://www.google.sk/maps/place/P%C3%A1lenica+Jel%C5%A1ovce/@48.3819135,18.0627736,17z/data=!3m1!4b1!4m5!3m4!1s0x476b4782b5144aa1:0xbbb187a203852716!8m2!3d48.3819135!4d18.0649623", target="_blank") (Mapa)
+                .row
+                    .five.columns.offset-by-one
+                        h2.centered-text Svadobný obrad
+                        p.text.
+                            Svadobný obrad sa za pekného počasia uskutoční v prekrásnej záhrade, ktorá sa nachádza za reštauráciou. V prípade špatného počasia sa obrad presunie do tanečnej sály.
+                            Pripravte sa na bohatý program napríklad na obhliadku pivníc spojenú s ochutnávkou.
+                    .five.columns
+                        h2.centered-text Odvoz zo svadby
+                        p.text.
+                            K dispozícii je šofér s štvormiestnym autom, ktorý odvezie ľudí kedykoľvek podľa potreby.
+                            Po polnoci budú k dispozícii aj taxíky, pričom cesta do okolia Bošian (Partizánske, Topoľčany, Ješkova Ves) trvá približne 40 minút.
+                .row
+                    .twelve.columns
+                        #swiper-restaurant.swiper-container.restaurantSlides
+                            .swiper-wrapper
+                                .swiper-slide.restaurant1
+                                .swiper-slide.restaurant2
+                                .swiper-slide.restaurant3
+                                .swiper-slide.restaurant4
+                            .swiper-pagination
+
+                .row
+                    #weddingKey.tvelve.columns.fullBackground
+                        img(src="../images/key.png").centered-image.keyImage#key2
+                .row.sliderEnd
+
+
+        section#paralax2Section
+            .container-fluid
+                .row
+                    .twelve.columns
+                        div#parallax2.parallaxParent
+                            div.backdround2
+
+        section#dressCodeSection
+            div#dressCode.dressCode.container-fluid
+                .row
+                    .twelve.columns.centered-text
+                        h1 Dress Code ?!
+                .row
+                    .ten.columns.offset-by-one
+                        p.text.
+                            Chceme náš deň urobiť iný a nezvyčajný a popravde neboli by sme to my keby sme si niečo špeciálne nevymysleli. Ale prečo práve Rockenrollová svadba?
+                            Metalovú svadbu by si vychutnalo tak päť hostí, rockovú možno o trochu viac, ale stále nie všetci.
+                            Prešli sme preto až k začiatkom týchto hudobných žánrov a to k Rockenrollu - k ére Elvisa, Chucka Berryho či Little Richarda.
+                            Klasické hity týchto velikánov už počul asi každí a aj keď jednotlivé piesne po mene možno poznať nebudete dúfame, že dokážu rozprúdiť
+                            riadnu retro zábavu ako vystrihnutú z filmu Pomáda.
+                .row
+                    .five.columns.offset-by-one
+                        h2.centered-text Dámy
+                        img(src='../images/dress.png').centered-image.scaledImage
+                        p.text.
+                            Rockenrollové šaty bývajú zväčša "áčkového" strihu. Velmi oblúbené sú však aj púzdrové šaty. Preferujú sa výrazné ale aj pastelové farby a bodkované, prúžkované, čerešničkové či kvetinkové vzory.
+                            K typickým doplnkom patria "mačacie" cat eye okuliare, čelenky a šatky vo vlasoch. Pravá "rockabella" nahodí ešte pekný retro účes a la pädesiate roky a vybehne na parket kde ju nikto
+                            nezastaví.
+                    .five.columns
+                        h2.centered-text Páni
+                        img(src='../images/shirt.png').centered-image.scaledImage
+                        p.
+                            Páni to oproti dámam majú relatívne jednoduché. Oblek doplnený o farebné traky a motýlik je základ, vestička sa určite tiež hodí. Retro vzory ako bodky, pásiky, či napr. rockenrollové čerešničky sú výtané.
+                            Namiesto klasických oblekových topánok sú prípustné plátené tenisky (tzv. číňany / plátenky) napr. značky Converse. Perfekcionisti si nechajú ešte narásť bokombrady, hodia trochu gélu
+                            do vlasov alebo klobúk na hlavu a sú pripravení to roztočiť.
+                .row
+                    .twelve.columns
+                        #swiper-dresscode.swiper-container
+                            .swiper-wrapper
+                                .swiper-slide.dress1
+                                .swiper-slide.dress2
+                                .swiper-slide.dress3
+                                .swiper-slide.dress4
+                                .swiper-slide.dress5
+                                .swiper-slide.dress6
+                                .swiper-slide.dress7
+                                .swiper-slide.dress8
+                                .swiper-slide.dress9
+                                .swiper-slide.dress10
+                                .swiper-slide.dress11
+                                .swiper-slide.dress12
+                                .swiper-slide.dress13
+                                .swiper-slide.dress14
+                            .swiper-pagination
+
+                .row
+                    #dressCodeKey.tvelve.columns.fullBackground
+                        img(src="../images/key.png").centered-image.keyImage#key3
+
+        section#paralax3Section
+            .container-fluid
+                .row
+                    .twelve.columns
+                        div#parallax3.parallaxParent
+                            .backdround3
+
+        section#giftsSection
+            #gifts.container-fluid.gifts
+                .row
+                    .twelve.columns.centered-text
+                        h1 Kvety a Svadobné Dary
+                .row
+                    .five.columns.offset-by-one
+                        h2.centered-text Kvety
+                        p.text.
+                            Ninka miluje kvety. Ale keďže po svadbe cestujeme domov, bolo by pre nás komplikované previezť všetky darované kvety. Namiesto veľkej kytice
+                            prineste prosím radšej po jednej farebnej ruži. Vznikne takto jedna veľká farebná kyticu.
+                        .imageWrapper
+                            img(src="../images/bouqet.jpg").flowers
+                    .five.columns.offset-by-one
+                        h2.centered-text Dary
+                        p.text.
+                            Náš svadobný zoznam darov je veľmi krátky. S Ninkou bývame spolu väčšinu nášho vzťahu a stihli sme si náš byt už dostatočne zariadiť a nič
+                            vecného nám naozaj nechýba. Náš krátky zoznam darov nájdete v nasledovnom videu.
+                        .video-container
+                            iframe(width="560", height="315", src="https://www.youtube.com/embed/-0kcet4aPpQ", frameborder="0", allowfullscreen)
+                .row
+                    #giftsCodeKey.tvelve.columns.fullBackground
+                        img(src="../images/key.png").centered-image.keyImage#key4
+                .row
+                    .twelve.columns.centered-text.fullBackground
+                        p.
+                            Pavol Škvarenina ® 2017
+                .filler
+
+
+
+
