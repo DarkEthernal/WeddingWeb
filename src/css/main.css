@@ -1,0 +1,486 @@
+body {
+  background-color: #3c2651;
+}
+p {
+  padding: 0 10px;
+}
+@font-face {
+  font-family: 'Harlow Solid';
+  src: url('../fonts/HarlowSolid.eot');
+  src: url('../fonts/HarlowSolid.eot?#iefix') format('embedded-opentype'), url('../fonts/HarlowSolid.woff') format('woff'), url('../fonts/HarlowSolid.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Mervale Script';
+  src: url('../fonts/mervale-script-regular.eot');
+  src: url('../fonts/mervale-script-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/mervale-script-regular.woff') format('woff'), url('../fonts/mervale-script-regular.ttf') format('truetype');
+  font-weight: normal;
+}
+h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Harlow Solid';
+  color: #ffb347;
+  text-shadow: -1px -1px 0 #3c2651, 1px -1px 0 #3c2651, -1px 1px 0 #3c2651, 1px 1px 0 #3c2651, -2px 0 0 #3c2651, 2px 0 0 #3c2651, 0 2px 0 #3c2651, 0 -2px 0 #3c2651, /* Outline 2 */ -2px -2px 0 #f0e0a2, 2px -2px 0 #f0e0a2, -2px 2px 0 #f0e0a2, 2px 2px 0 #f0e0a2, -3px 0 0 #f0e0a2, 3px 0 0 #f0e0a2, 0 3px 0 #f0e0a2, 0 -3px 0 #f0e0a2;
+}
+h2 {
+  color: #ffb347;
+  font-size: 2em;
+}
+.centered-image {
+  margin: 0 auto ;
+}
+.fullBackground {
+  background-color: #3c2651;
+}
+.header {
+  background-color: #3c2651;
+  height: 50px;
+  line-height: 50px;
+}
+.header li a {
+  text-decoration: none;
+  font-family: 'Harlow Solid';
+  color: #ffb347;
+  text-shadow: -1px -1px 0 #3c2651, 1px -1px 0 #3c2651, -1px 1px 0 #3c2651, 1px 1px 0 #3c2651, -2px 0 0 #3c2651, 2px 0 0 #3c2651, 0 2px 0 #3c2651, 0 -2px 0 #3c2651, /* Outline 2 */ -2px -2px 0 #f0e0a2, 2px -2px 0 #f0e0a2, -2px 2px 0 #f0e0a2, 2px 2px 0 #f0e0a2, -3px 0 0 #f0e0a2, 3px 0 0 #f0e0a2, 0 3px 0 #f0e0a2, 0 -3px 0 #f0e0a2;
+}
+.header li a:hover,
+.header li a:active {
+  text-decoration: none;
+  font-family: 'Harlow Solid';
+  color: #f0e0a2;
+  text-shadow: -1px -1px 0 #3c2651, 1px -1px 0 #3c2651, -1px 1px 0 #3c2651, 1px 1px 0 #3c2651, -2px 0 0 #3c2651, 2px 0 0 #3c2651, 0 2px 0 #3c2651, 0 -2px 0 #3c2651, /* Outline 2 */ -2px -2px 0 #ffb347, 2px -2px 0 #ffb347, -2px 2px 0 #ffb347, 2px 2px 0 #ffb347, -3px 0 0 #ffb347, 3px 0 0 #ffb347, 0 3px 0 #ffb347, 0 -3px 0 #ffb347;
+}
+.header nav ul {
+  padding-left: 105px;
+}
+.header nav ul li {
+  height: 50px;
+  position: relative;
+  text-align: left;
+  padding-left: 5%;
+  float: left;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.header ul {
+  list-style: none outside;
+  margin-bottom: 0;
+}
+.header .headerImage {
+  padding-top: 10px;
+  float: right;
+  position: absolute;
+  width: 120px;
+  cursor: pointer;
+  display: block;
+}
+#swiper-restaurant {
+  width: 100%;
+  height: 150px;
+}
+#swiper-restaurant .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#swiper-restaurant .restaurant1 {
+  background: url('../images/gallery/restaurant/rest01.jpg') no-repeat;
+  background-size: cover;
+}
+#swiper-restaurant .restaurant2 {
+  background: url('../images/gallery/restaurant/rest02.jpg') no-repeat;
+  background-size: cover;
+}
+#swiper-restaurant .restaurant3 {
+  background: url('../images/gallery/restaurant/rest03.jpg') no-repeat;
+  background-size: cover;
+}
+#swiper-restaurant .restaurant4 {
+  background: url('../images/gallery/restaurant/rest04.jpg') no-repeat;
+  background-size: cover;
+}
+#swiper-dresscode {
+  height: 600px;
+}
+#swiper-dresscode .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#swiper-dresscode .dress1 {
+  background: url('../images/gallery/dresscode/1.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress2 {
+  background: url('../images/gallery/dresscode/2.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress3 {
+  background: url('../images/gallery/dresscode/3.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress4 {
+  background: url('../images/gallery/dresscode/4.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress5 {
+  background: url('../images/gallery/dresscode/5.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress6 {
+  background: url('../images/gallery/dresscode/6.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress7 {
+  background: url('../images/gallery/dresscode/7.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress8 {
+  background: url('../images/gallery/dresscode/8.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress9 {
+  background: url('../images/gallery/dresscode/9.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress10 {
+  background: url('../images/gallery/dresscode/10.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress11 {
+  background: url('../images/gallery/dresscode/11.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress12 {
+  background: url('../images/gallery/dresscode/12.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress13 {
+  background: url('../images/gallery/dresscode/13.jpg') no-repeat;
+  background-size: auto 100%;
+}
+#swiper-dresscode .dress14 {
+  background: url('../images/gallery/dresscode/14.jpg') no-repeat;
+  background-size: auto 100%;
+}
+span.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #f0e0a2;
+  opacity: 0.8;
+}
+span.swiper-pagination-bullet-active {
+  background: #3c2651;
+}
+.names {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.names p {
+  font-family: 'Mervale Script';
+  color: #ffb347;
+  text-shadow: -1px -1px 0 #3c2651, 1px -1px 0 #3c2651, -1px 1px 0 #3c2651, 1px 1px 0 #3c2651, -2px 0 0 #3c2651, 2px 0 0 #3c2651, 0 2px 0 #3c2651, 0 -2px 0 #3c2651, /* Outline 2 */ -2px -2px 0 #f0e0a2, 2px -2px 0 #f0e0a2, -2px 2px 0 #f0e0a2, 2px 2px 0 #f0e0a2, -3px 0 0 #f0e0a2, 3px 0 0 #f0e0a2, 0 3px 0 #f0e0a2, 0 -3px 0 #f0e0a2;
+  max-width: 90%;
+  font-size: 3.0em;
+  padding-left: 20px;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+}
+.wedding,
+.dressCode,
+.gifts {
+  background-color: rgba(60, 38, 81, 0.95);
+  color: #f0e0a2;
+  width: 100%;
+  font-family: 'Mervale Script';
+  font-size: 1.4em;
+}
+.wedding p.merveleFont,
+.dressCode p.merveleFont,
+.gifts p.merveleFont {
+  font-family: 'Mervale Script';
+  text-align: center;
+  font-size: 2em;
+}
+.wedding P,
+.dressCode P,
+.gifts P {
+  font-family: 'Salsa', cursive;
+}
+.wedding p.text,
+.dressCode p.text,
+.gifts p.text {
+  text-align: justify;
+}
+.wedding p a,
+.dressCode p a,
+.gifts p a {
+  text-decoration: none;
+  font-family: 'Mervale Script';
+  color: #f0e0a2;
+}
+.wedding p a:active,
+.dressCode p a:active,
+.gifts p a:active,
+.wedding p a:hover,
+.dressCode p a:hover,
+.gifts p a:hover {
+  text-decoration: none;
+  font-family: 'Mervale Script';
+  color: #ffb347;
+}
+.dressCode,
+.gifts {
+  margin-top: 0;
+}
+.centered-text {
+  text-align: center;
+}
+.centered-image {
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto ;
+}
+.keyImage {
+  height: 72.5px;
+  width: auto;
+}
+/* Larger than mobile */
+@media (min-width: 400px) {
+  #swiper-restaurant {
+    height: 190px;
+  }
+  .header nav ul {
+    padding-left: 105px;
+  }
+  .header .headerImage {
+    width: 120px;
+  }
+  .names p {
+    font-size: 4.0em;
+  }
+}
+/* Larger than phablet */
+@media (min-width: 550px) {
+  #swiper-restaurant {
+    height: 260px;
+  }
+  .header {
+    height: 60px;
+    line-height: 60px;
+  }
+  .header nav ul {
+    padding-left: 0;
+  }
+  .header nav ul li {
+    height: 60px;
+    font-size: 1.5em;
+  }
+  .header .headerImage {
+    padding-left: 10px;
+    width: 180px;
+    visibility: visible;
+  }
+  .names {
+    padding-left: 0;
+  }
+  .names p {
+    padding-left: 0;
+  }
+  .wedding,
+  .dressCode,
+  .gifts {
+    font-size: 1.1em;
+  }
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #swiper-restaurant {
+    height: 300px;
+  }
+  .header {
+    height: 80px;
+    line-height: 80px;
+  }
+  .header nav ul li {
+    height: 80px;
+    font-size: 2.5em;
+  }
+  .header .headerImage {
+    padding-left: 35px;
+    width: 240px;
+  }
+  .names p {
+    font-size: 5em;
+  }
+  .dressCode,
+  .gifts {
+    margin-top: 500px;
+  }
+  .keyImage {
+    height: 145px;
+    width: auto;
+  }
+  .wedding,
+  .dressCode,
+  .gifts {
+    font-size: 1.4em;
+  }
+}
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  #swiper-restaurant {
+    height: 340px;
+  }
+  .header .headerImage {
+    padding-left: 100px;
+  }
+  .names p {
+    font-size: 6.0em;
+  }
+  #wrapper,
+  #wrapper2 {
+    visibility: visible;
+  }
+  .wedding,
+  .dressCode,
+  .gifts {
+    font-size: 1.6em;
+  }
+}
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  #swiper-restaurant {
+    height: 400px;
+  }
+  .header .headerImage {
+    padding-left: 150px;
+  }
+  .names p {
+    font-size: 7.0em;
+  }
+}
+/* Larger than Desktop HD */
+@media (min-width: 1400px) {
+  #swiper-restaurant {
+    height: 475px;
+  }
+}
+/* Larger than Desktop HD */
+@media (min-width: 1600px) {
+  #swiper-restaurant {
+    height: 550px;
+  }
+}
+.pulse,
+.pulseAgain {
+  animation: pulse 1s 1;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  display: block;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.parallaxParent {
+  height: 100vh;
+}
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: 0;
+}
+.backdround1 {
+  background: url('../images/kiss.jpg') no-repeat top center;
+  transform: translate(0%, 0%) translate3d(0px, 0px, 0px);
+  background-size: 100% auto;
+  z-index: -1;
+}
+.backdround2 {
+  background: url('../images/molo.jpg') no-repeat top center;
+  transform: translate(0%, 0%) translate3d(0px, 0px, 0px);
+  background-size: 100% auto;
+  z-index: -1;
+}
+.backdround3 {
+  background: url('../images/back.jpg') no-repeat top center;
+  transform: translate(0%, 0%) translate3d(0px, 0px, 0px);
+  background-size: 100% auto;
+  z-index: -1;
+}
+.flowers {
+  width: auto;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.imageWrapper {
+  overflow: hidden;
+}
+.scaledImage {
+  width: 50%;
+  height: auto;
+}
