@@ -4,10 +4,10 @@ var path = require("path");
 
 var app = express();
 
-app.use('/css', express.static('dist/css'));
-app.use('/fonts', express.static('dist/fonts'));
-app.use('/images', express.static('dist/images'));
-app.use('/script', express.static('dist/script'));
+app.use('/css', express.static(__dirname + '/dist/css'));
+app.use('/fonts', express.static(__dirname + '/dist/fonts'));
+app.use('/images', express.static(__dirname + '/dist/images'));
+app.use('/script', express.static(__dirname + '/dist/script'));
 
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/index.html'));
